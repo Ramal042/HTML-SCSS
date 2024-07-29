@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f7fb;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #e5e9f2;
+    padding: 10px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.phone-icon {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.phone-number {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+b{
+    color: #666;
+}
+
+.hero {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text .label {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.hero-text p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.catalog-button {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.catalog-button:hover {
+    background-color: #357ab8;
+}
+
+.varieties {
+    display: block;
+    color: #888;
+    margin-top: 10px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.products {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    max-width: 200px;
+    flex: 1 1 calc(33.333% - 20px);
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-item p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.product-item button {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.product-item button:hover {
+    background-color: #357ab8;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f7fb;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.custom-order {
+    background-color: #f5f7fb;
+    padding: 60px 0;
+}
+
+.custom-order .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-order-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-order-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.custom-order-text {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+}
+
+.custom-order-text .label {
+    display: block;
+    color: #888;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.custom-order-text h2 {
+    font-size: 28px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.custom-order-text p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.upload-button {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.upload-button:hover {
+    background-color: #357ab8;
+}
